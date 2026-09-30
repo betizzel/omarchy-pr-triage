@@ -10,7 +10,9 @@ The key idea: **two PRs that rewrite the same lines of code are probably fixing 
 
 ## The yardstick
 
-@aholbreich posted hand-checked duplicate groups in [omacom/omarchy#11049](https://github.com/omacom/omarchy/issues/11049) (2026-09-27 update): 28 groups and 27 pairs, each checked by reading the diffs. None of the tools below produced those labels, so they make a fair test. Of those pairs, 166 were still open on 2026-09-30.
+@aholbreich posted hand-checked duplicate groups in [omacom/omarchy#11049](https://github.com/omacom/omarchy/issues/11049#issuecomment-5857142203) (2026-09-27 update): 28 groups and 27 pairs, each checked by reading the diffs. None of the tools below produced those labels, so they make a fair test. Of those pairs, 166 were still open on 2026-09-30.
+
+One caveat: he found his candidates by clustering titles and requiring a shared primary file, then read the diffs. So the labels lean toward duplicates that title and file signals can already find. That favours the title- and file-based tools here, which makes the changed-lines gain a conservative result.
 
 The labels only say which PRs *are* duplicates. They don't list every duplicate in the backlog, so these numbers measure how many known duplicates a tool finds, not how many wrong ones it suggests.
 
