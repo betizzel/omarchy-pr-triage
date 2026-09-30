@@ -1,7 +1,7 @@
 {
- "source": "https://github.com/omacom/omarchy/issues/11049#issuecomment (aholbreich, 2026-09-27 update)",
+ "source": "https://github.com/omacom/omarchy/issues/11049#issuecomment-5857142203",
  "source_created_at": "2026-09-27T15:21:27Z",
- "method": "Shared primary file first, then a manual read of each diff (author's description). Independent of triage-o-mator and pr_clusters signals.",
+ "method": "Title clustering and a shared primary file to find candidates, then a manual read of each diff (author's description). Independent of triage-o-mator, Reposition and pr_clusters, but the candidate step overlaps with title and file signals.",
  "duplicate_groups": [
   {
    "what": "`omarchy-windows-vm` clear setgid on mount sources",

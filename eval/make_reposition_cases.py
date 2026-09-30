@@ -45,7 +45,7 @@ def main():
     })
 
   output = {
-    "label_authority": "Independent hand-checked duplicate groups for omacom/omarchy by @aholbreich (omacom/omarchy#11049, 2026-09-27 update), each checked by reading the diffs. Queries are the oldest open member's title, chosen by us, not by the labeller. Membership is limited to PRs open in the ledger used to build the cases.",
+    "label_authority": "Hand-checked duplicate groups for omacom/omarchy by @aholbreich (2026-09-27 update to omacom/omarchy#11049). He found candidates by clustering titles and requiring a shared primary file, then checked each by reading the diffs, so the labels are independent of Reposition and triage-o-mator but share a lexical candidate step with this retrieval. Queries are the oldest open member's title, chosen by us, not by the labeller. Membership is limited to PRs open in the ledger used to build the cases.",
     "source": labels["source"],
     "hard_negatives": labels["hard_negatives"],
     "cases": cases,
