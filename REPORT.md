@@ -51,7 +51,7 @@ A code-overlap signal like the one above could help here too. Tranche's issue #2
 
 | Where | What | Status |
 | --- | --- | --- |
-| triage-o-mator | Changed-lines signal, confirmed duplicates listed apart from leads, and a playbook for picking which PR to keep | [Branch on my fork](https://github.com/betizzel/triage-o-mator/tree/changed-lines-signal), issue drafted |
+| triage-o-mator | Changed-lines signal, confirmed duplicates listed apart from leads, and a playbook for picking which PR to keep | [Branch on my fork](https://github.com/betizzel/triage-o-mator/tree/changed-lines-signal), [issue #3](https://github.com/EFrMG/triage-o-mator/issues/3) opened |
 | reposition | 55 real test cases from #11049 and the first real-backlog trial | [Branch on my fork](https://github.com/betizzel/reposition/tree/omarchy-review-cases) |
 | This repo | `pr_clusters.py`, the agent review brief, the Omarchy bar plugin and the evaluation scripts | Here |
 
@@ -77,7 +77,7 @@ Raw results are in `eval/tom-discovery-result.json`.
 
 ## Next steps
 
-1. Open the issue on triage-o-mator ([draft](proposal/triage-o-mator-issue.md)) and a PR if EFrMG wants it
+1. Open a PR on triage-o-mator if EFrMG wants it ([issue #3](https://github.com/EFrMG/triage-o-mator/issues/3))
 2. Share the reposition trial with Jeremy
 3. Offer the code-overlap idea to Tranche on its issue #2
 4. Match PRs that add the same new code, the biggest remaining gap
