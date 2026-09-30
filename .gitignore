@@ -1,0 +1,5 @@
+cache/
+out/
+reviews/
+__pycache__/
+*.pyc

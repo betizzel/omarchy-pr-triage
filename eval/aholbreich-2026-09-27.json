@@ -1,0 +1,510 @@
+{
+ "source": "https://github.com/omacom/omarchy/issues/11049#issuecomment (aholbreich, 2026-09-27 update)",
+ "source_created_at": "2026-09-27T15:21:27Z",
+ "method": "Shared primary file first, then a manual read of each diff (author's description). Independent of triage-o-mator and pr_clusters signals.",
+ "duplicate_groups": [
+  {
+   "what": "`omarchy-windows-vm` clear setgid on mount sources",
+   "prs": [
+    9605,
+    10411,
+    11994,
+    12019,
+    12264,
+    12323,
+    13154,
+    13213
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Remember menu position when navigating back",
+   "prs": [
+    7074,
+    7954,
+    11577,
+    12098,
+    12644,
+    12759,
+    13012,
+    13225
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Enable Sunshine by its real unit name",
+   "prs": [
+    8879,
+    12271,
+    12358,
+    12472,
+    12505,
+    13230,
+    13331
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Battery status across all packs",
+   "prs": [
+    7186,
+    10392,
+    12024,
+    12445
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "`omarchy toggle bar` on/off inverted",
+   "prs": [
+    7023,
+    12022,
+    12150
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Grok usage collector",
+   "prs": [
+    6485,
+    12352,
+    13219
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Vivaldi browser support",
+   "prs": [
+    5774,
+    9430,
+    12754
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Clipboard shortcuts on non-Latin layouts",
+   "prs": [
+    7283,
+    9130,
+    13007
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Hermes usage collector",
+   "prs": [
+    6647,
+    9871
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Fuzzy menu search",
+   "prs": [
+    7016,
+    8987
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "OpenCode Go usage collector",
+   "prs": [
+    8065,
+    12651
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Antigravity usage collector (`agy` vs `antigravity` file name)",
+   "prs": [
+    8479,
+    11989
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Dismiss low-battery warning on charge",
+   "prs": [
+    11415,
+    11959
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Calendar grid shifts on midnight DST switches",
+   "prs": [
+    10476,
+    13096,
+    13127,
+    13186
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Show/hide toggle for the Wi-Fi passphrase",
+   "prs": [
+    8019,
+    11720,
+    12891,
+    12925
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Keyboard backlight lost after repeated blanks",
+   "prs": [
+    10364,
+    10366,
+    11404,
+    12960
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Lock screen password focus after resume",
+   "prs": [
+    7592,
+    8560,
+    12435
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Kitty bold/italic faces on font set",
+   "prs": [
+    9168,
+    12171,
+    13235
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Display panel toggle under the Lua config parser",
+   "prs": [
+    10194,
+    11112,
+    13223
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Keep the last valid `shell.json`",
+   "prs": [
+    7723,
+    12992,
+    13104
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "fontconfig monospace rule as a conf.d drop-in",
+   "prs": [
+    12935,
+    12999,
+    13092
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Keybindings menu Lua bind scan",
+   "prs": [
+    7564,
+    12916,
+    13276
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Rank apps above menu actions in search",
+   "prs": [
+    7661,
+    11730,
+    12223
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "ssh-reconnect leaving the alternate screen",
+   "prs": [
+    8084,
+    12063,
+    13116
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Ctrl-N/Ctrl-P menu navigation",
+   "prs": [
+    7042,
+    10934
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Lock screen password reveal toggle",
+   "prs": [
+    7680,
+    13183
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Orphan prompt under `omarchy update -y`",
+   "prs": [
+    8824,
+    13371
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "Unset `OMARCHY_PATH` in update-dev",
+   "prs": [
+    8590,
+    12860
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    7783,
+    12658
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11069,
+    11470
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    8429,
+    12957
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    10413,
+    13214
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    13041,
+    13100
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    13044,
+    13094
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    8875,
+    12569
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11235,
+    12196
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11344,
+    13236
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11364,
+    12089
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11893,
+    12021
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11918,
+    12544
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11273,
+    12420
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    12585,
+    13204
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    10749,
+    12241
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    12649,
+    12755
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11565,
+    12831
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11933,
+    12870
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    10159,
+    11169
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    9847,
+    13314
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    8692,
+    13090
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    8414,
+    12936
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    10877,
+    11624
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    8406,
+    13364
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    11728,
+    12533
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    8023,
+    12574
+   ],
+   "relationship": "same fix"
+  },
+  {
+   "what": "same lines, same fix",
+   "prs": [
+    7833,
+    11338
+   ],
+   "relationship": "same fix"
+  }
+ ],
+ "hard_negatives": [
+  {
+   "pr": 10113,
+   "near": [
+    9605,
+    10411,
+    11994,
+    12019,
+    12264,
+    12323,
+    13154,
+    13213
+   ],
+   "why": "fixes the same windows-vm bug the other way round, by accepting the mode instead of clearing it"
+  },
+  {
+   "pr": 11803,
+   "near": [
+    7023,
+    12022,
+    12150
+   ],
+   "why": "documents the current toggle bar behaviour instead of flipping it"
+  }
+ ],
+ "excluded_by_author": "same-author resubmissions, deliberate series (Intel Mac P13 work), larger PRs where the fix is one part of something bigger (#12109, #11580, #10400)"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "bay.pr-triage",
+  "name": "PR Triage",
+  "version": "1.0.0",
+  "author": "bay",
+  "license": "MIT",
+  "description": "Bar icon with a popup for browsing clusters of overlapping open pull requests and asking an agent to review one. Reads the output of omarchy-triage/pr_clusters.py.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "PR Triage",
+    "description": "Browse open-PR clusters and ask an agent to review one.",
+    "category": "Development",
+    "aliases": [
+      "pull requests",
+      "triage",
+      "prs",
+      "clusters"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "triageDir": "~/Developer/omarchy-triage"
+    },
+    "schema": [
+      {
+        "key": "triageDir",
+        "type": "string",
+        "label": "Triage directory",
+        "defaultValue": "~/Developer/omarchy-triage",
+        "description": "Directory containing pr_clusters.py plus its out/summary.json and reviews/index.json outputs. A leading ~ is expanded to your home directory."
+      }
+    ]
+  }
+}
