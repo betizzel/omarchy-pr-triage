@@ -26,8 +26,8 @@ No cache or index is committed. The case file only holds PR numbers and titles, 
 | Other group members returned (the anchor PR itself excluded) | 75 / 91 (82.4%) |
 | Cases where every member was returned | 46 / 55 |
 | Median returned items per case | 5 |
-| Median warm query | 318 ms |
-| Median verified literal scan, same projections | 3,864 ms |
+| Median warm FTS5 query (ranked, any-term) | 318 ms |
+| Median verified literal scan (cost reference only) | 3,864 ms |
 | Indexed source / index size | 103.3 / 192.6 MiB |
 | Build time / peak RSS | 26.9 s / 679 MiB |
 

@@ -38,7 +38,7 @@ Same 2,849 open PRs, same data, only the code changed:
 
 ### reposition on the real backlog
 
-[reposition](https://github.com/Univeracity/reposition) is Jeremy's search tool for triage-o-mator's data. I ran it for the first time on a real backlog, using the hand-checked groups as test cases. Searching with one PR's title found **75 of 91 (82.4%)** of its known duplicates within its 12 KB answer limit. A search took about 0.3 seconds, against 3.9 seconds for a plain text scan.
+[reposition](https://github.com/Univeracity/reposition) is Jeremy's search tool for triage-o-mator's data. I ran it for the first time on a real backlog, using the hand-checked groups as test cases. Searching with one PR's title found **75 of 91 (82.4%)** of its known duplicates within its 12 KB answer limit. A search took about 0.3 seconds. (A plain text scan took 3.9 seconds, but it looks for the whole title as one exact string, so it is a cost reference, not a fair speed comparison.)
 
 ### Tranche
 
